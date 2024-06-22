@@ -1,0 +1,484 @@
+{
+    "actions": [
+        {
+            "COMMAND": null,
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1719057206.675][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND InitSession {\n   \"capabilities\": {\n      \"firstMatch\": [ {\n         \"browserName\": \"chrome\",\n         \"goog:chromeOptions\": {\n            \"args\": [ \"--remote-allow-origins=*\" ],\n            \"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\n            \"extensions\": [  ]\n         },\n         \"goog:loggingPrefs\": {\n            \"browser\": \"ALL\",\n            \"driver\": \"ALL\"\n         }\n      } ]\n   }\n}\n",
+            "RESPONSE": "[1719057207.212][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE InitSession {\n   \"capabilities\": {\n      \"acceptInsecureCerts\": false,\n      \"browserName\": \"chrome\",\n      \"browserVersion\": \"126.0.6478.63\",\n      \"chrome\": {\n         \"chromedriverVersion\": \"126.0.6478.63 (df799988fdc9c52db48650316d53800b1e9aa69e-refs/branch-heads/6478_56@{#5})\",\n         \"userDataDir\": \"C:\\\\Users\\\\chara\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir30652_1647023846\"\n      },\n      \"fedcm:accounts\": true,\n      \"goog:chromeOptions\": {\n         \"debuggerAddress\": \"localhost:58805\"\n      },\n      \"networkConnectionEnabled\": false,\n      \"pageLoadStrategy\": \"normal\",\n      \"platformName\": \"windows\",\n      \"proxy\": {\n      },\n      \"setWindowRect\": true,\n      \"strictFileInteractability\": false,\n      \"timeouts\": {\n         \"implicit\": 0,\n         \"pageLoad\": 300000,\n         \"script\": 30000\n      },\n      \"unhandledPromptBehavior\": \"dismiss and notify\",\n      \"webauthn:extension:credBlob\": true,\n      \"webauthn:extension:largeBlob\": true,\n      \"webauthn:extension:minPinLength\": true,\n      \"webauthn:extension:prf\": true,\n      \"webauthn:virtualAuthenticators\": true\n   },\n   \"sessionId\": \"b8efea8157ad0484cc933af24caec67d\"\n}\n"
+        },
+        {
+            "COMMAND": "[1719057207.287][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND MaximizeWindow {\n}\n",
+            "RESPONSE": "[1719057207.305][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE MaximizeWindow {\n   \"height\": 928,\n   \"width\": 1722,\n   \"x\": -8,\n   \"y\": -8\n}\n"
+        },
+        {
+            "COMMAND": "[1719057207.312][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com/\"\n}\n",
+            "RESPONSE": "[1719057212.138][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1719057212.143][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057212.156][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057212.668][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057212.673][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057213.188][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057213.192][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057213.695][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057213.700][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057214.208][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057214.213][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057214.729][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057214.733][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057215.242][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057215.247][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057215.751][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057215.755][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057216.265][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057216.270][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057216.781][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057216.786][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057217.298][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057217.303][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057217.804][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057217.808][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057218.313][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057218.318][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057218.824][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057218.829][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057219.331][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057219.336][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057219.842][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057219.847][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057220.364][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057220.368][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057220.881][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057220.886][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057221.389][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057221.394][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057221.899][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057221.903][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057222.411][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057222.416][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057222.419][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@id=\\\"container\\\"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[1]/div[1]/header/div[1]/div[2]/form/div/div/input\"\n}\n",
+            "RESPONSE": "[1719057222.429][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.0FD44DB9B4B6B25EC00EAF9DB2CCC4C3.e.108\"\n}\n"
+        },
+        {
+            "COMMAND": "[1719057222.444][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND TypeElement {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.0FD44DB9B4B6B25EC00EAF9DB2CCC4C3.e.108\",\n   \"text\": \"Washing Machine\",\n   \"value\": [ \"W\", \"a\", \"s\", \"h\", \"i\", \"n\", \"g\", \" \", \"M\", \"a\", \"c\", \"h\", \"i\", \"n\", \"e\" ]\n}\n",
+            "RESPONSE": "[1719057222.494][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1719057225.406][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[normalize-space()='Popularity']\"\n}\n",
+            "RESPONSE": "[1719057225.426][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.311\"\n}\n"
+        },
+        {
+            "COMMAND": "[1719057225.436][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND ClickElement {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.311\"\n}\n",
+            "RESPONSE": "[1719057225.492][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1719057225.495][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='_5OesEi']//div\"\n}\n",
+            "RESPONSE": "[1719057225.523][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.314\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.315\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.316\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.317\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.318\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.319\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.320\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.321\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.322\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.323\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.324\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.325\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.326\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.327\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.328\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.329\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.330\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.331\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.332\"\n}, \"...\" ]\n"
+        },
+        {
+            "COMMAND": "[1719057225.526][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.314\"\n}\n",
+            "RESPONSE": "[1719057225.535][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.537][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.315\"\n}\n",
+            "RESPONSE": "[1719057225.541][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.5\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.543][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.316\"\n}\n",
+            "RESPONSE": "[1719057225.549][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.550][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.317\"\n}\n",
+            "RESPONSE": "[1719057225.554][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.556][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.318\"\n}\n",
+            "RESPONSE": "[1719057225.560][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.562][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.319\"\n}\n",
+            "RESPONSE": "[1719057225.567][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.569][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.320\"\n}\n",
+            "RESPONSE": "[1719057225.573][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.2\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.574][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.321\"\n}\n",
+            "RESPONSE": "[1719057225.578][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.580][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.322\"\n}\n",
+            "RESPONSE": "[1719057225.584][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.586][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.323\"\n}\n",
+            "RESPONSE": "[1719057225.590][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.2\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.592][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.324\"\n}\n",
+            "RESPONSE": "[1719057225.598][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.600][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.325\"\n}\n",
+            "RESPONSE": "[1719057225.605][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.2\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.607][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.326\"\n}\n",
+            "RESPONSE": "[1719057225.611][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.613][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.327\"\n}\n",
+            "RESPONSE": "[1719057225.620][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.622][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.328\"\n}\n",
+            "RESPONSE": "[1719057225.626][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.627][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.329\"\n}\n",
+            "RESPONSE": "[1719057225.644][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.646][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.330\"\n}\n",
+            "RESPONSE": "[1719057225.659][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.660][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.331\"\n}\n",
+            "RESPONSE": "[1719057225.667][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.4\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.669][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.332\"\n}\n",
+            "RESPONSE": "[1719057225.674][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.675][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.333\"\n}\n",
+            "RESPONSE": "[1719057225.682][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.684][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.334\"\n}\n",
+            "RESPONSE": "[1719057225.691][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.692][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.335\"\n}\n",
+            "RESPONSE": "[1719057225.702][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.1\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.704][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.336\"\n}\n",
+            "RESPONSE": "[1719057225.708][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.709][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.CF8101052B4990AAEE0B7D2BCE8E879C.e.337\"\n}\n",
+            "RESPONSE": "[1719057225.715][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"4.3\"\n"
+        },
+        {
+            "COMMAND": "[1719057225.717][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com/\"\n}\n",
+            "RESPONSE": "[1719057227.909][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1719057227.911][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057227.921][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057228.434][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057228.445][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057228.949][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057228.953][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057229.459][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057229.464][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057229.977][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057229.983][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057230.496][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057230.501][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057231.012][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057231.017][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057231.524][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057231.529][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057232.035][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057232.040][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057232.547][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057232.551][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057233.063][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057233.068][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057233.579][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057233.583][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057234.096][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057234.100][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057234.605][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057234.610][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057235.115][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057235.119][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057235.623][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057235.627][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057236.137][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057236.141][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057236.653][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057236.657][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057237.173][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057237.178][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057237.688][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057237.692][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057238.208][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1719057238.213][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=126.0.6478.63)\n"
+        },
+        {
+            "COMMAND": "[1719057238.215][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@id=\\\"container\\\"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[1]/div[1]/header/div[1]/div[2]/form/div/div/input\"\n}\n",
+            "RESPONSE": "[1719057238.219][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.9F4DD4BC38A6A45519B44F7996F00086.e.391\"\n}\n"
+        },
+        {
+            "COMMAND": "[1719057238.226][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND TypeElement {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.9F4DD4BC38A6A45519B44F7996F00086.e.391\",\n   \"text\": \"iPhone\",\n   \"value\": [ \"i\", \"P\", \"h\", \"o\", \"n\", \"e\" ]\n}\n",
+            "RESPONSE": "[1719057238.260][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1719057239.437][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='yKfJKb row']//child::div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1719057239.454][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.573\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.574\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.575\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.576\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.577\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.578\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.579\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.580\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.581\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.582\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.583\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.584\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.585\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.586\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.587\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.588\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.589\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.590\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.591\"\n}, \"...\" ]\n"
+        },
+        {
+            "COMMAND": "[1719057239.456][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='yKfJKb row']//child::div[@class='KzDlHZ']\"\n}\n",
+            "RESPONSE": "[1719057239.463][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.573\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.574\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.575\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.576\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.577\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.578\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.579\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.580\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.581\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.582\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.583\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.584\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.585\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.586\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.587\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.588\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.589\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.590\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.591\"\n}, \"...\" ]\n"
+        },
+        {
+            "COMMAND": "[1719057239.465][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='yKfJKb row']//child::div[@class='UkUFwK']\"\n}\n",
+            "RESPONSE": "[1719057239.476][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.597\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.598\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.599\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.600\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.601\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.602\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.603\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.604\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.605\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.606\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.607\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.608\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.609\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.610\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.611\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.612\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.613\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.614\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.615\"\n}, \"...\" ]\n"
+        },
+        {
+            "COMMAND": "[1719057239.478][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.597\"\n}\n",
+            "RESPONSE": "[1719057239.484][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"8% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.485][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.598\"\n}\n",
+            "RESPONSE": "[1719057239.489][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"8% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.490][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.599\"\n}\n",
+            "RESPONSE": "[1719057239.493][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"8% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.494][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.600\"\n}\n",
+            "RESPONSE": "[1719057239.500][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"29% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.501][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.576\"\n}\n",
+            "RESPONSE": "[1719057239.504][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"Apple iPhone 14 Plus (Midnight, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.508][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.601\"\n}\n",
+            "RESPONSE": "[1719057239.513][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"29% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.514][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.577\"\n}\n",
+            "RESPONSE": "[1719057239.518][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"Apple iPhone 14 Plus (Blue, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.519][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.602\"\n}\n",
+            "RESPONSE": "[1719057239.523][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"29% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.524][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.578\"\n}\n",
+            "RESPONSE": "[1719057239.527][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"Apple iPhone 14 Plus (Starlight, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.529][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.603\"\n}\n",
+            "RESPONSE": "[1719057239.533][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"29% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.534][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.579\"\n}\n",
+            "RESPONSE": "[1719057239.539][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"Apple iPhone 14 Plus (Purple, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.540][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.604\"\n}\n",
+            "RESPONSE": "[1719057239.544][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"8% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.545][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.605\"\n}\n",
+            "RESPONSE": "[1719057239.550][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"29% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.551][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.581\"\n}\n",
+            "RESPONSE": "[1719057239.555][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"Apple iPhone 14 Plus ((PRODUCT)RED, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.556][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.606\"\n}\n",
+            "RESPONSE": "[1719057239.560][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"15% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.562][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.582\"\n}\n",
+            "RESPONSE": "[1719057239.570][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"Apple iPhone 14 (Blue, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.572][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.607\"\n}\n",
+            "RESPONSE": "[1719057239.622][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"26% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.623][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.583\"\n}\n",
+            "RESPONSE": "[1719057239.627][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"Apple iPhone 14 Plus (Midnight, 256 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.629][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.608\"\n}\n",
+            "RESPONSE": "[1719057239.634][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"19% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.636][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.584\"\n}\n",
+            "RESPONSE": "[1719057239.639][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"Apple iPhone 12 (Black, 64 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.641][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.609\"\n}\n",
+            "RESPONSE": "[1719057239.644][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"6% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.646][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.610\"\n}\n",
+            "RESPONSE": "[1719057239.651][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"6% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.652][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.611\"\n}\n",
+            "RESPONSE": "[1719057239.656][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"29% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.657][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.587\"\n}\n",
+            "RESPONSE": "[1719057239.661][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"Apple iPhone 14 Plus (Yellow, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.663][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.612\"\n}\n",
+            "RESPONSE": "[1719057239.667][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"11% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.668][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.588\"\n}\n",
+            "RESPONSE": "[1719057239.672][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"Apple iPhone 13 (Pink, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.673][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.613\"\n}\n",
+            "RESPONSE": "[1719057239.677][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"11% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.678][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.589\"\n}\n",
+            "RESPONSE": "[1719057239.683][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"Apple iPhone 13 (Starlight, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.685][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.614\"\n}\n",
+            "RESPONSE": "[1719057239.689][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"26% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.690][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.590\"\n}\n",
+            "RESPONSE": "[1719057239.693][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"Apple iPhone 14 Plus (Yellow, 256 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.694][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.615\"\n}\n",
+            "RESPONSE": "[1719057239.699][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"11% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.700][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.591\"\n}\n",
+            "RESPONSE": "[1719057239.704][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"Apple iPhone 13 (Blue, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.706][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.616\"\n}\n",
+            "RESPONSE": "[1719057239.710][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"9% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.711][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.617\"\n}\n",
+            "RESPONSE": "[1719057239.717][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"9% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.719][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.618\"\n}\n",
+            "RESPONSE": "[1719057239.723][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"26% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.724][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.594\"\n}\n",
+            "RESPONSE": "[1719057239.732][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"Apple iPhone 14 Plus (Blue, 256 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.734][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.619\"\n}\n",
+            "RESPONSE": "[1719057239.738][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"18% off\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.740][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.595\"\n}\n",
+            "RESPONSE": "[1719057239.743][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"Apple iPhone 12 (Blue, 128 GB)\"\n"
+        },
+        {
+            "COMMAND": "[1719057239.744][INFO]: [b8efea8157ad0484cc933af24caec67d] COMMAND GetElementText {\n   \"id\": \"f.CF1E7B7969ED61482E624734169F2D7F.d.D0C9C09A103E83F9E9F5E6E1E390016E.e.620\"\n}\n",
+            "RESPONSE": "[1719057239.750][INFO]: [b8efea8157ad0484cc933af24caec67d] RESPONSE GetElementText \"7% off\"\n"
+        }
+    ]
+}
